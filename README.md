@@ -58,11 +58,11 @@ Lockr.get('user_id');
 Lockr.get('users');
 >  [{name: 'John Doe', age: 18}, {name: 'Jane Doe', age: 19}]
 
-Lockr.get('score', 0):
+Lockr.get('score', 0);
 > 0
 
-Lockr.set('score', 3):
-Lockr.get('score', 0):
+Lockr.set('score', 3);
+Lockr.get('score', 0);
 > 3
 ```
 
